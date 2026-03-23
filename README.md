@@ -155,8 +155,8 @@ python Pi_Controller.py
  
 - **Anti-tailgate** — 30-second cooldown per named person prevents duplicate attendance records.
 - **Repeated denial response** — alarm triggers after 3 consecutive unknown rejections, or 5 denials within a 120-second rolling window. Resets on grant.
-- **Graceful degradation** — if the Raspberry Pi serial link is unavailable, the system enters LED-only mode automatically. All events continue to log locally.
-- **Heartbeat monitor** — background thread pings the Raspberry Pi every 30 seconds and flags a disconnect before the next access event.
+- **Switching to substitute mode (Plan B if servo is down)** — if the Raspberry Pi serial link is unavailable, the system enters LED-only mode automatically. All events continue to log locally.
+- **Activity monitor** — background thread pings the Raspberry Pi every 30 seconds and flags a disconnect before the next access event.
  
 ---
  
