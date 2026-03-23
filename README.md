@@ -1,4 +1,4 @@
-# information_processing_group4
+# Information_Processing_Group4
 
 # Facial-Recognition Based IoT Attendance System
  
