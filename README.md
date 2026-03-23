@@ -170,12 +170,3 @@ nodeX-certificate.pem.crt
 nodeX-private.pem.key
 ```
  
-Do not commit certificates to this repository.
- 
----
- 
-## Notes
- 
-- The PYNQ boards run Python 3 via Jupyter. Scripts can also be run directly from the terminal over SSH.
-- The Raspberry Pi serial port in `Pi_Controller.py` defaults to `/dev/ttyAMA0`. Change this to `/dev/ttyUSB0` or `/dev/ttyACM0` if needed depending on your connection type.
-- dlib cannot be compiled from source on a t3.micro due to RAM constraints. Install via a pre-built binary wheel.
