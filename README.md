@@ -19,10 +19,10 @@ An IoT-based automated attendance system for a university lecture hall. Two PYNQ
 ```
 .
 ├── imgProc/                        # Node 1 — FPGA camera input and face detection
-│   ├── faceDetection.ipynb         # Main notebook — HLS accelerator, face detection, MQTT publish
+│   ├── faceDetection.ipynb         # HLS accelerator, face detection, MQTT publish
 │   ├── test_with_accel.ipynb       # Testing notebook for accelerator verification
 │   ├── haarcascade_frontalface_default.xml
-│   ├── recreate_project.tcl        # Vivado project recreation script
+│   ├── recreate_project.tcl        
 │   ├── dependencies.txt
 │   ├── accel_downscale/            # HLS accelerator source
 │   └── hdmi_input/                 # HDMI input IP source
